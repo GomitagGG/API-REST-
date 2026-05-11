@@ -10,40 +10,149 @@
     {
       "name": "POST",
       "request": {
-        "method": "GET",
-        "header": []
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"paciente_nombre\": \"Fernando García\",\r\n    \"especialidad\": \"Cirugía\",\r\n    \"medico_nombre\": \"Dr. Pepe\",\r\n    \"consultorio\": \"A3\",\r\n    \"estado\": \"pendiente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/turnos-clinica",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "turnos-clinica"
+          ]
+        }
       },
       "response": []
     },
     {
       "name": "GET",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/turnos-clinica",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "turnos-clinica"
+          ]
+        }
       },
       "response": []
     },
     {
       "name": "GET/id",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/turnos-clinica/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "turnos-clinica",
+            "4"
+          ]
+        }
       },
       "response": []
     },
     {
       "name": "PUT/id",
       "request": {
-        "method": "GET",
-        "header": []
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"paciente_nombre\": \"Fernando García\",\r\n    \"especialidad\": \"Cirugía\",\r\n    \"medico_nombre\": \"Dr. Pepe23223452345\",\r\n    \"consultorio\": \"A3\",\r\n    \"estado\": \"pendiente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/turnos-clinica/4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "turnos-clinica",
+            "4"
+          ]
+        }
       },
       "response": []
     },
     {
       "name": "DELETE/id",
       "request": {
-        "method": "GET",
-        "header": []
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/turnos-clinica/5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "turnos-clinica",
+            "5"
+          ]
+        }
       },
       "response": []
     }

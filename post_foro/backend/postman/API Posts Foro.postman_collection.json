@@ -64,10 +64,11 @@
         }
       ],
       "protocolProfileBehavior": {
+        "disableBodyPruning": true,
         "disabledSystemHeaders": {}
       },
       "request": {
-        "method": "POST",
+        "method": "GET",
         "header": [
           {
             "key": "Content-Type",
@@ -135,7 +136,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:3000/posts-foro/1",
+          "raw": "http://localhost:3000/posts-foro/27",
           "protocol": "http",
           "host": [
             "localhost"
@@ -143,7 +144,7 @@
           "port": "3000",
           "path": [
             "posts-foro",
-            "1"
+            "27"
           ]
         }
       },
@@ -177,7 +178,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:3000/posts-foro/1",
+          "raw": "http://localhost:3000/posts-foro/27",
           "protocol": "http",
           "host": [
             "localhost"
@@ -185,7 +186,7 @@
           "port": "3000",
           "path": [
             "posts-foro",
-            "1"
+            "27"
           ]
         }
       },
@@ -194,8 +195,35 @@
     {
       "name": "DELETE/id",
       "request": {
-        "method": "GET",
-        "header": []
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/posts-foro/22",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "posts-foro",
+            "22"
+          ]
+        }
       },
       "response": []
     }
