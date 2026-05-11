@@ -299,4 +299,4 @@ Cada proyecto incluye su colección de Postman lista para importar:
 ## Autor
 
 Proyecto desarrollado para EVA 2 — Programación Web  
-Instituto Santo Tomás, sede Puerto Montt
+Instituto Santo Tomás, sede Puerto Montt, Tomás Alexis Quintana Ramos.
