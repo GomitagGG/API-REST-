@@ -1,6 +1,6 @@
 # API REST - Turnos Clínica
 
-API REST construida con **Node.js + Express + MySQL** para gestionar turnos de una clínica. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería de Ejecución en Informática, Santo Tomás Puerto Montt.
+API REST construida con **Node.js + Express + MySQL** para gestionar turnos de una clínica. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería en Informática, Santo Tomás Puerto Montt.
 
 ---
 
