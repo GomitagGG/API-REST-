@@ -1,6 +1,6 @@
 # API REST — Posts Foro & Turnos Clínica
 
-API REST construida con **Node.js + Express + MySQL** que gestiona dos recursos independientes: posts de un foro y turnos de una clínica. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería de Ejecución en Informática, Santo Tomás Puerto Montt.
+API REST construida con **Node.js + Express + MySQL** que gestiona dos recursos independientes: posts de un foro y turnos de una clínica. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería en Informática, Santo Tomás Puerto Montt.
 
 ---
 
