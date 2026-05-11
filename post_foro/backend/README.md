@@ -1,6 +1,6 @@
 # API REST - Posts Foro
 
-API REST construida con **Node.js + Express + MySQL** para gestionar posts de un foro. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería de Ejecución en Informática, Santo Tomás Puerto Montt.
+API REST construida con **Node.js + Express + MySQL** para gestionar posts de un foro. Proyecto desarrollado como parte de la asignatura Programación Web — Ingeniería en Informática, Santo Tomás Puerto Montt.
 
 ---
 
