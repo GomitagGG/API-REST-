@@ -242,4 +242,4 @@ Para importarla:
 ## Autor
 
 Proyecto desarrollado para EVA 2 — Programación Web  
-Instituto Santo Tomás, sede Puerto Montt
+Instituto Santo Tomás, sede Puerto Montt, Tomás Alexis Quintana Ramos.
